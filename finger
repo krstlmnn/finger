@@ -1,0 +1,26 @@
+.TH FINGER 1
+.SH NAME
+finger \- query a remote user information program
+.SH SYNOPSIS
+.B finger
+[
+.B -v
+]
+.I user@host
+.SH DESCRIPTION
+.I Finger
+queries
+.I host
+for information about
+.I user
+and copies the response to standard output.
+.PP
+The
+.B -v
+option causes
+.I finger
+to request for more verbose output.
+.SH SOURCE
+.B https://github.com/krstlmnn/finger
+.SH SEE ALSO
+``The Finger User Information Protocol'', RFC1288.
